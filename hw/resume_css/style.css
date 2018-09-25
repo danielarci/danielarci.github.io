@@ -1,14 +1,9 @@
 body {
-  background-color: eef4f7;
+  background-color: #f4faff;
 }
-
-p {
-  font-family: 'Assistant', sans-serif;
-}
-
 
 ul {
-
+  font-family: 'Assistant', sans-serif;
 }
 
 #name {
@@ -17,17 +12,30 @@ ul {
   color: 656573;
 }
 
+#name:hover {
+  font-weight: lighter;
+}
+
 .subtitles {
   font-family: 'Assistant', sans-serif;
   font-size: 25px;
-  color: 656573;
+  color: #656573;
 }
 
 .musiclinks {
-  color: black;
+  color: 999;
   text-decoration: none;
 }
 
 .musiclinks:hover {
   font-weight: bold;
+  color: #656573;
+}
+
+.media {
+  filter: grayscale(100%);
+}
+
+.media:hover {
+  filter: grayscale(0%);
 }
