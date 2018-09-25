@@ -29,3 +29,13 @@ ul {
 ol {
   color: red;
 }
+
+<!-- This is an ID tag -->
+.customlist {
+  color: purple;
+}
+
+<!-- This is a class tag -->
+#maintitle {
+  font-family: 'Assistant', sans-serif;
+}

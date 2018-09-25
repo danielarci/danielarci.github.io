@@ -1,5 +1,9 @@
-p {
+body {
+  background-color: eef4f7;
+}
 
+p {
+  font-family: 'Assistant', sans-serif;
 }
 
 h1 {
@@ -10,10 +14,13 @@ ul {
 
 }
 
-.customlist {
-  color:purple
+.titles {
+  font-family: 'Assistant', sans-serif;
+  font-size: 65px;
+  color: 656573;
 }
 
-#maintitle {
+.subtitles {
   font-family: 'Assistant', sans-serif;
-}
+  font-size: 25px;
+  color: 656573;
