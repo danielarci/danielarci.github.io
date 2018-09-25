@@ -39,3 +39,7 @@ ul {
 .media:hover {
   filter: grayscale(0%);
 }
+
+.footer {
+  font-family: 'Assistant', sans-serif;
+}
