@@ -9,11 +9,11 @@ ul {
 #name {
   font-family: 'Assistant', sans-serif;
   font-size: 65px;
-  color: 656573;
+  color: gray;
 }
 
 #name:hover {
-  font-weight: lighter;
+  font-style: italic;
 }
 
 .subtitles {
