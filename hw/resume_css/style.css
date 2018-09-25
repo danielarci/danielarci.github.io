@@ -19,11 +19,11 @@ ul {
 .subtitles {
   font-family: 'Assistant', sans-serif;
   font-size: 25px;
-  color: #656573;
+  color: gray;
 }
 
 .musiclinks {
-  color: 999;
+  color: navy;
   text-decoration: none;
 }
 
