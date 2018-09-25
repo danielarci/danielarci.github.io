@@ -6,9 +6,6 @@ p {
   font-family: 'Assistant', sans-serif;
 }
 
-h1 {
-
-}
 
 ul {
 
@@ -24,3 +21,13 @@ ul {
   font-family: 'Assistant', sans-serif;
   font-size: 25px;
   color: 656573;
+}
+
+#musiclinks {
+  color: black;
+  text-decoration: none;
+}
+
+#musiclinks:hover {
+  font-weight: bold;
+}
