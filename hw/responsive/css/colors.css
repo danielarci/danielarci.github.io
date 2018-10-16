@@ -26,6 +26,7 @@ body {
   font-family: 'Assistant', sans-serif;
   font-size: 30px;
 }
+
   nav {
     display: block;
     background: gray;
@@ -41,6 +42,12 @@ nav:hover {
 
   .navlinks {
     list-style-type: none;
+  }
+
+  .navlinks ul {
+    padding-left: 0px;
+    margin-left: 0;
+    padding: 5px;
   }
 
   .navlinks li {
@@ -71,13 +78,43 @@ nav:hover {
   min-height: 100px;
   padding: 20px;
   box-sizing: border-box;
+  font-family: 'Assistant', sans-serif;
 }
 
 .right {
   display: inline-block;
-  color: white;
   width: 100%;
   background: #333333;
+  color: white;
   padding: 20px;
   box-sizing: border-box;
+  text-align: justify;
+}
+
+.artwork {
+  width: 100%;
+}
+
+p {
+  color: gray;
+  font-family: 'Assistant', sans-serif;
+  text-align: center;
+}
+
+.descriptor {
+  text-align: justify;
+}
+
+.sources {
+  color: white;
+  text-align: justify;
+}
+
+.sources a {
+  color: white;
+  text-decoration: none;
+}
+
+.sources a:hover {
+  color: gray;
 }
