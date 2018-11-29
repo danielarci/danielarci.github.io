@@ -8,10 +8,12 @@ img .pics {
   max-width: 100%;
 }
 
-h1 #title {
+#title {
   text-align: center;
+  font-family: Helvetica;
 }
 
 p {
-  font-style: arial;
+  font-family: Helvetica;
+  color: brown;
 }
